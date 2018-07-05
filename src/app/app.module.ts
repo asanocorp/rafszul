@@ -6,7 +6,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {
   MatButtonModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatTabsModule
  } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -22,6 +23,7 @@ import { AppComponent } from './app.component';
     FlexLayoutModule,
     MatButtonModule,
     MatToolbarModule,
+    MatTabsModule,
     AppRoutingModule
   ],
   providers: [],

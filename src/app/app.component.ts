@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rafszul';
+
+  links = [
+    '/home',
+    '/about',
+    '/work',
+    '/contact'
+  ];
+
+  // activeLink = this.links[0];
+
 }
