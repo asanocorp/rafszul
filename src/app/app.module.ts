@@ -4,7 +4,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-import { MatButtonModule } from '@angular/material';
+import {
+  MatButtonModule,
+  MatToolbarModule
+ } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +21,7 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     FlexLayoutModule,
     MatButtonModule,
+    MatToolbarModule,
     AppRoutingModule
   ],
   providers: [],
