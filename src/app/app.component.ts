@@ -15,6 +15,6 @@ export class AppComponent {
     '/contact'
   ];
 
-  // activeLink = this.links[0];
+  activeLink = this.links[0];
 
 }
